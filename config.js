@@ -100,8 +100,8 @@ global.htjava = '⫹⫺' //hiasan Doang :v
 global.hsquere = '⛶', '❏', '⫹⫺'
 
 // Sticker WM
-global.packname = ''
-global.author = ''
+global.packname = '➤ By MoonBot'
+global.author = '➤ Nomor Bot: 6285806585715'
 
 global.multiplier = 69 // The higher, The harder levelup
 
