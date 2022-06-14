@@ -39,7 +39,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
         setTimeout(resolve, 1000)
       }) * 1000
     }
-      let vn = './media/tante-tante.mp3'
+      let vn = ''
     let uptime = clockString(_uptime)
     let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(plugin => {
       return {
@@ -95,10 +95,10 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
    conn.sendButton(m.chat, `*${wish()}, ${name} 👋*`, text.trim(), await genProfile(conn, m), [['Speedtest', _p + 'ping'], ['Owner', _p + 'owner']], false, { quoted: fkon, contextInfo: { externalAdReply: { showAdAttribution: true,
 mediaType: 'VIDEO',
 mediaUrl: 'https://www.kibrispdr.org/dwn/7/yotsuba-nakano-wallpaper.jpg',
-title: 'Simple Bot Esm',
-body: 'By Papah-Chan',
+title: '𝑀𝑜𝑜𝑛𝐵𝑜𝑡',
+body: '𝐵𝑦 𝑅𝑢𝑙𝑙',
 thumbnail: fs.readFileSync("./thumbnail.jpg"),
-sourceUrl: 'https://youtu.be/poD-7_U3jXk'
+sourceUrl: 'https://urlis.net/Moon'
 }
   }
 })
