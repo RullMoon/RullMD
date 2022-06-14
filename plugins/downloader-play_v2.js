@@ -17,9 +17,9 @@ if (command == 'play.2') {
 conn.reply(m.chat, `*_⏳ Wait,Video Sedang Di Proses...⏳_*`, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: 'VIDEO',
-body: 'Sad-Bot',         
+body: '𝒎𝒐𝒐𝒏𝒃𝒐𝒕',         
 previewType: 0, thumbnail: fs.readFileSync("./thumbnail.jpg"),
-sourceUrl: `https://github.com/FahriAdison/Sad-Multi-Device`}}})
+sourceUrl: `https://urlis.net/Moon`}}})
 let res = await fetch("https://api.dhamzxploit.my.id/api/ytplaymp4?text="+text)
 let json = await res.json()
 conn.sendFile(m.chat, json.result.url, 'error.mp4', `_Sad-Bot_`, m)}
