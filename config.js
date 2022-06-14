@@ -101,7 +101,7 @@ global.hsquere = '⛶', '❏', '⫹⫺'
 
 // Sticker WM
 global.packname = '➤ By MoonBot'
-global.author = '➤ Nomor Bot: 6285806585715'
+global.author = 'MoonBot'
 
 global.multiplier = 69 // The higher, The harder levelup
 
