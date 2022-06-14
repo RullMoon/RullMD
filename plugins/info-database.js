@@ -8,4 +8,4 @@ handler.tags = ['info']
 handler.command = /^(database|jumlahdatabase|user)$/i
 handler.limit = true
 
-module.exports = handler
+module exports handler
