@@ -9,5 +9,7 @@ conn.sendButton(m.chat, 'Cowok', wm, json.result.male, [['NEXT', `/${command}`]]
 }
 handler.help = ['ppcouple']
 handler.tags = ['internet']
+handler.private = true
+
 handler.command = /^(ppcp|ppcouple)$/i
 export default handler
