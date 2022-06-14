@@ -12,7 +12,7 @@ let handler = async (m, { conn, args }) => {
 }
 handler.help = ['linkgroup <jid>']
 handler.tags = ['group']
-handler.command = /^link(gro?up)?$/i
+handler.command = /^link(gro?up)$/i
 handler.group = true
 
 
