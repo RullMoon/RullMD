@@ -793,16 +793,16 @@ To turn off this feature, type
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: 'This command can only be used by _*OWWNER!1!1!*_',
-        owner: 'This command can only be used by _*Owner Bot*_!',
-        mods: 'This command can only be used by _*Moderator*_ !',
-        premium: 'This command is only for _*Premium*_ members!',
-        group: 'This command can only be used in groups!',
-        private: 'This command can only be used in Private Chat!',
-        admin: 'This command is only for *Admin* group!',
-        botAdmin: 'Make bot as *Admin* to use this command!',
-        unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Manusia.16*',
-        restrict: 'This feature is *disabled*!'
+        rowner: 'Perintah hanya untuk owner!!',
+        owner: 'Perintah Hanya dapat digunakan oleh owner!',
+        mods: 'Perintah Hanya untuk moderator bot!',
+        premium: 'Perintah Hanya untuk pengguna premium bot!',
+        group: 'Perintah hanya dapat di gunakan di grub!',
+        private: 'Perintah hanya dapat digunakan di chat pribadi!',
+        admin: 'Perintah hanya untuk *Admin* grub!',
+        botAdmin: 'Jadikan bot admin grub untuk menggunakan fitur ini!',
+        unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Moon.19*',
+        restrict: 'Fitur tidak di aktifkan!'
     }[type]
     if (msg) return conn.reply(m.chat, msg, m, { contextInfo: { externalAdReply: {title: global.wm, body: '404 Access denied!', sourceUrl: sgc, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
 }
